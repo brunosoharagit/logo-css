@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.bgc
+{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    background-image: linear-gradient(to bottom, #d00 , #909 , #00d);
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+}
+
+.form
+{
+    position: absolute;
+    border-radius: 60px;
+    border: solid 15px #fff;
+    top: 12%;
+    left: 12%;
+    height: 200px;
+    width: 200px;
+}
+.form::before
+{
+    content: '';
+    position: absolute;
+    border: solid 15px #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top: 17%;
+    left: 17%;
+}
+.form::after
+{
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    top: 10%;
+    left: 80%;
+}
+
+.name
+{
+    position: absolute;
+    font-family: 'Lobster', cursive;
+    font-size: 75px;
+    top: 290px;
+    left: -5px;
+}
